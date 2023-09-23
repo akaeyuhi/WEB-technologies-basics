@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #fff; 
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.float-container {
+  width: 100%;
+  background-color: grey;
+  height: 60vh;
+}
+
+.float-container__image {
+  width: 25%;
+  height: 100%;
+  float: right;
+  background-color: rgb(19, 23, 163);
+  object-fit: cover;
+}
+
+.float-container__text {
+  width: 75%;
+  height: 100%;
+  float: left;
+  background-color: rgb(16, 204, 225);
+}
+
+.image, .text {
+  width: 100%;
+  height: 20vh;
+}
+.image {
+  object-fit: cover;
+  display: block;
+}
+
+.text {
+  background-color: rgb(108, 218, 24);
+}
